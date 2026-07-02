@@ -47,3 +47,5 @@ house-price-prediction/
 1. Clone the repo: `git clone https://github.com/SiriChandana-Vaddi/house-price-prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open notebooks in Jupyter or Google Colab
+## 🚀 Live Demo
+👉 [Click here to try the app](paste-your-full-url-here)
