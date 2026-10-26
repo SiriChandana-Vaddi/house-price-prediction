@@ -1,51 +1,63 @@
-# 🏠 House Price Prediction using Linear Regression
+# 🏠 House Price Prediction Using Linear Regression
 
-A BTech CSE project to predict house prices using machine learning, starting with Linear Regression and expanding to advanced models.
+## 📌 Project Overview
 
-## 📌 Objective
-Predict residential house prices based on features like area income, house age, number of rooms, population, and location.
+This project focuses on predicting house prices using **Linear Regression**, a machine learning algorithm.
 
-## 📂 Project Structure
-house-price-prediction/
+The project uses data analysis and a regression model to understand the relationship between house features and their prices.
 
-│
+## 🎯 Objectives
 
-├── data/               # Raw and cleaned datasets
+- Analyze house price data.
+- Perform Exploratory Data Analysis (EDA).
+- Build a Linear Regression model.
+- Evaluate the model's prediction performance.
 
-├── notebooks/          # Jupyter notebooks (one per week)
+## 🛠️ Technologies Used
 
-├── models/             # Saved model files (.pkl)
+- Python
+- Jupyter Notebook
+- Machine Learning
+- Linear Regression
 
-├── reports/            # Project proposal and final report
+## ⚙️ Project Workflow
 
-├── requirements.txt    # Python dependencies
+1. Load and explore the dataset.
+2. Perform data analysis and visualization.
+3. Identify the target variable (`SalePrice`).
+4. Prepare the data for model training.
+5. Train the Linear Regression model.
+6. Evaluate the model's performance.
 
-└── README.md
-## 📊 Datasets
-- **Simple (Weeks 1–4):** USA Housing Dataset (7 columns, ~5000 rows)
-- **Advanced (Weeks 5–8):** Ames Housing Dataset from Kaggle (79 features)
+## 📊 Model Evaluation
 
-## 🛠️ Tech Stack
-- Python, Jupyter Notebook / Google Colab
-- pandas, NumPy, matplotlib, seaborn, scikit-learn
-- XGBoost, LightGBM (Week 6)
-- Streamlit (Week 7 – Deployment)
+The model's performance can be evaluated using:
 
-## 📅 Weekly Plan
-| Week | Focus |
-|------|-------|
-| 1 | Setup, Literature Review, Data Acquisition |
-| 2 | EDA & Data Preprocessing |
-| 3 | Feature Engineering |
-| 4 | Linear Regression Model |
-| 5 | Evaluation & Optimization |
-| 6 | Advanced Models |
-| 7 | Deployment (Streamlit) |
-| 8 | Report & Presentation |
+- **MAE:** Mean Absolute Error
+- **MSE:** Mean Squared Error
+- **RMSE:** Root Mean Squared Error
+- **R² Score:** Coefficient of Determination
 
-## ▶️ How to Run
-1. Clone the repo: `git clone https://github.com/SiriChandana-Vaddi/house-price-prediction.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open notebooks in Jupyter or Google Colab
-## 🚀 Live Demo
-👉 [Click here to try the app](paste-your-full-url-here)
+Add your actual evaluation results here after checking your notebook.
+
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Install Python and Jupyter Notebook if they are not already installed.
+3. Open the project notebook in Jupyter Notebook.
+4. Ensure the required dataset is available at the path specified in the notebook.
+5. Run the notebook cells in order.
+
+## 📚 What I Learned
+
+- Basics of machine learning with Linear Regression.
+- Exploratory Data Analysis.
+- Understanding regression evaluation metrics.
+- Working with datasets in Jupyter Notebook.
+
+## 👩‍💻 Author
+
+**Siri Chandana**
+
+- GitHub: [SiriChandana-Vaddi](https://github.com/SiriChandana-Vaddi)
+- Portfolio: [Visit My Portfolio](https://sirichandana-vaddi.github.io/siri-portfolio/)
