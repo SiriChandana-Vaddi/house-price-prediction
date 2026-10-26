@@ -38,7 +38,39 @@ The model's performance can be evaluated using:
 - **RMSE:** Root Mean Squared Error
 - **R² Score:** Coefficient of Determination
 
-Add your actual evaluation results here after checking your notebook.
+## 📊 Model Evaluation Results
+
+The models were evaluated using a held-out test dataset containing 972 samples.
+
+### Best Performing Model
+
+**Polynomial Features (Degree 2) + Ridge Regression**
+
+| Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | 0.0712 |
+| Root Mean Squared Error (RMSE) | 0.0933 |
+| R² Score | 0.8982 |
+| Adjusted R² Score | 0.8973 |
+
+### Model Comparison
+
+| Model | MAE | RMSE | R² Score |
+|---|---:|---:|---:|
+| Polynomial (Degree 2) + Ridge | 0.0712 | 0.0933 | 0.8982 |
+| Linear Regression | 0.0773 | 0.1000 | 0.8832 |
+| Ridge (Tuned) | 0.0773 | 0.1000 | 0.8832 |
+| Lasso (Tuned) | 0.0773 | 0.1001 | 0.8830 |
+| Baseline (Mean Predictor) | 0.2259 | 0.2929 | -0.0024 |
+
+### Key Findings
+
+- Polynomial features of degree 2 with Ridge regression achieved the highest test R² score among the evaluated models.
+- The best model achieved an RMSE of 0.0933.
+- Five-fold cross-validation was used to compare models and tune hyperparameters.
+- Residual analysis, influential-point analysis, and learning curves were used to examine model behavior.
+
+*Note: The reported metric values are in the target variable's scale used by the notebook. Confirm whether the target was transformed before interpreting the errors in currency units.*
 
 ## 🚀 How to Run
 
